@@ -31,9 +31,10 @@ body{
 
 .card__title::before, .card__title::after{
   content: "";
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 15%;
   height: 3px; 
+  margin-bottom: 5px;
   background-color: black;
 }
 
